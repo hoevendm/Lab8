@@ -14,7 +14,7 @@ public class GuessingGame implements ActionListener {
 
   GuessingGame() {
     Random r = new Random();
-    int randNum = r.nextInt(100) + 1;
+    randNum = r.nextInt(100) + 1;
 
     JFrame frame = new JFrame("Guessing Game");
     frame.setLayout(new FlowLayout());
